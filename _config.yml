@@ -1,7 +1,4 @@
-remote_theme: pmarsceill/just-the-docs
-
-
-
+remote_theme: akademie-oeffentliches-gesundheitswesen/lehrbuch-theme
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -11,8 +8,7 @@ search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 
 
-plugins:
-  - jekyll-seo-tag
+github: [metadata]
 
 
 title: Lehrbuch ÖGD
@@ -21,10 +17,8 @@ title: Lehrbuch ÖGD
 aux_links:
   "Lehrbuch auf GitHub":
     - "https://github.com/akademie-oeffentliches-gesundheitswesen/lehrbuch-oeffentliche-gesundheit"
-  "PDF":
-    - "https://akademie-oeffentliches-gesundheitswesen.github.io/lehrbuch-oeffentliche-gesundheit/assets/pdf/lehrbuch-oeffentliche-gesundheit.pdf"
 
-logo: "akademie.jpeg"
+
 
 # Footer content appears at the bottom of every page's main content
 footer_content: "Copyright &copy; 1971 –  2019. Akademie für Öffentliches Gesundheitswesen in Düsseldorf. All rights reserved.  <br>
